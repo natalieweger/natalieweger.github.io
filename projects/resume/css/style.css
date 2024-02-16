@@ -1,52 +1,62 @@
-header{ 
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     text-align: center;
 }
-.contact a{
+
+.contact a {
     color: rgb(80, 158, 236);
     font-family: Georgia, 'Times New Roman', Times, serif
 }
+
 .objective {
-    background-color:rgb(95, 159, 100);
+    background-color: rgb(95, 159, 100);
     color: rgb(251, 251, 251);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     margin-bottom: 30px;
     text-align: center;
 }
+
 h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-.resume-item h3 a{
+
+.resume-item h3 a {
     color: rgb(80, 158, 236);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none; 
+    text-decoration: none;
 }
+
 .resume-item h4 {
     display: inline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
-    margin-top: -10px; 
+    margin-top: -10px;
 }
+
 .resume-item .date {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size : smaller;
-    color:rgb(103, 103, 103)
+    font-size: smaller;
+    color: rgb(103, 103, 103)
 }
 
 h3 {
-    font-family: "Trebutchet MS", sans-serif; 
+    font-family: "Trebutchet MS", sans-serif;
     color: rgb(80, 158, 236);
     margin-bottom: 5px;
 }
+
 body {
     margin-left: 5cm;
     margin-right: 5cm;
     background-color: rgb(245, 231, 206);
     margin-bottom: 2cm;
-h4, h5 {
-    display: inline; 
-    margin-left: 10px;
 }
+
+    h4,
+    h5 {
+        display: inline;
+        margin-left: 10px;
+    }
