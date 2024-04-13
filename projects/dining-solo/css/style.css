@@ -1,0 +1,84 @@
+/* header */
+header{
+    padding: 30% 5%;
+    min-height: 100vh;
+    text-shadow: 5px 5px 10px #5D5E4F;
+    background-image: url('../images/restaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+ }
+ header h1 {
+    color: #FAFCEF;
+    font-size: 8em;
+    font-family: "Italiana", sans-serif;
+ }
+ header h2 {
+    color: #FAFCEF;
+    font-size: 1.1em;
+    font-family: "Abel", sans-serif;
+ }
+ header p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #FAFCEF;
+    font-family: "Abel", sans-serif;
+ }
+/* body  */
+section.container{
+    width: 55%;
+    padding: 5%;
+    border: #0c0e0c;
+ }
+ @media (min-width: 768px) {
+    .container {
+        width: 75%;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        width: 95%;
+    }
+}
+body {
+    background-color: #0c0e0c;   
+}
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #FAFCEF;
+    font-family: "Roboto", sans-serif;
+}
+section.graphics p{
+    font-size: 1.2em;
+    color: #0c0e0c;
+    font-family: "Abel", sans-serif;
+}
+.row{
+    background-color: #F9F1E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.graphics{
+    background: #F9F1E5;
+    padding: 50px;
+}
+section.graphics h3{
+    font-family: "Abel", sans-serif;
+    text-align: center;
+}
+a {
+    color: #E18D58;
+}
+/* footer */
+footer{
+    background: #F9F1E5;
+    padding: 5% 30%;
+}
+footer p {
+    color: #0c0e0c; 
+    font-family: "Roboto", sans-serif;
+}

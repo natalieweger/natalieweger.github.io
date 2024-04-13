@@ -1,27 +1,26 @@
-
 .beverages-squares {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0 -10px;
 }
 
 .beverage {
-    flex-basis: calc(25% - 20px); 
+    flex-basis: calc(25% - 20px);
     text-align: center;
     padding: 5px;
-    margin: 0; 
+    margin: 0;
 }
 
 .beverage p {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .serving {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     padding-top: 10px;
 }
 
@@ -43,22 +42,23 @@
     background-color: rgb(48, 68, 44);
     display: inline-block;
     margin: 40 auto;
-    width: 50px; 
-    height: auto; 
-    
+    width: 50px;
+    height: auto;
+
 }
+
 .header {
     background-color: rgb(48, 68, 44);
     padding-bottom: 30px;
     text-align: center;
-    font-size:xx-large;
+    font-size: xx-large;
     color: azure;
 }
 
 .header nav a {
-    display: inline-block; 
-    margin: 0 10px; 
+    display: inline-block;
+    margin: 0 10px;
     color: white;
-    text-decoration: none; 
-    font-size: 18px; 
+    text-decoration: none;
+    font-size: 18px;
 }
