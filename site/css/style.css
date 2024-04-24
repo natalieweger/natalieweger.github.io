@@ -61,7 +61,6 @@ nav hr {
 
 /* footer  */
 footer {
-    margin: 0.5em 0;
     text-align: center;
     font-size: .75em;
 }
@@ -93,5 +92,21 @@ h2 {
 @media (max-width: 556px) {
     .resume li {
         text-align: left;
+    }
+}
+
+@media (max-width: 778px){
+    .desktop {
+        display: none;
+    }
+
+    .mobile{
+        padding: 0 0 1em 0;
+    }
+}
+
+@media (min-width: 778px){
+    .mobile{
+        display: none;
     }
 }
