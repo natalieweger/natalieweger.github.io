@@ -1,0 +1,67 @@
+/* header */
+header{
+    padding: 7% 5%; 
+    background-image: url('../images/goodreadsheader.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: top center; 
+    text-align: center;
+    color: #FAFCEF;
+    font-family: "Merriweather";
+}
+header h1 {
+    font-size: 4vw;
+}
+header h2 {
+    font-size: 3vw;
+}
+header p {
+    font-size: 1.5vw;
+    line-height: 1.7;
+}
+
+/* body */
+section.container{
+    padding: 5%;
+}
+body {
+    background-color: #FDF1DD;   
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+.row{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+section.green {
+    background-color: #343c31; 
+    color: #FDF1DD;   
+}
+section.white .col-md-3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px;
+}
+.flourish-embed {
+    width: 80%; 
+    height: auto;
+    margin: 0 auto; 
+    padding: 20px;
+}
+.col-md-7 .flourish-embed {
+    width: 100%; 
+}
+a {
+    color: #759166;
+    text-decoration: none;
+}
+
+/* footer */
+footer p {
+    padding: 30px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}

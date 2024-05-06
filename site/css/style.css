@@ -95,18 +95,18 @@ h2 {
     }
 }
 
-@media (max-width: 778px){
+@media (max-width: 778px) {
     .desktop {
         display: none;
     }
 
-    .mobile{
+    .mobile {
         padding: 0 0 1em 0;
     }
 }
 
-@media (min-width: 778px){
-    .mobile{
+@media (min-width: 778px) {
+    .mobile {
         display: none;
     }
 }
