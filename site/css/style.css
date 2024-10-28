@@ -117,3 +117,7 @@ h3 {
         display: none;
     }
 }
+
+section.margin {
+    margin-bottom: 2rem; /* Adjusts space below each section */
+}
